@@ -1,9 +1,9 @@
-import {UserHexagon} from "@boxicons/react";
+import Login from "./Login/login";
 
 const App = () => {
   return (
     <div>
-       <UserHexagon />
+       <Login/>
     </div>
   )
 }
