@@ -28,23 +28,11 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable}`}
     >
       <body className="min-h-screen bg-white text-black">
-        
-        {/* Header */}
-        <header className="border-b p-4">
-          <nav className="max-w-5xl mx-auto flex gap-6">
-            <a href="/about">About</a>
-          </nav>
-        </header>
 
         {/* Main Content */}
-        <main className="flex-1 max-w-5xl mx-auto p-6">
+        <main>
           {children}
         </main>
-
-        {/* Footer */}
-        <footer className="border-t p-4 text-center text-sm text-gray-500">
-          © 2026 My App
-        </footer>
 
       </body>
     </html>
