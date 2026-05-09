@@ -32,7 +32,6 @@ export default function RootLayout({
         {/* Header */}
         <header className="border-b p-4">
           <nav className="max-w-5xl mx-auto flex gap-6">
-            <a href="/">Home</a>
             <a href="/about">About</a>
           </nav>
         </header>
