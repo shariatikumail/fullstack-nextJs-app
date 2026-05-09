@@ -27,7 +27,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable}`}
     >
-      <body className="min-h-screen bg-white text-black">
+      <body className="min-h-screen bg-black text-black">
 
         {/* Main Content */}
         <main>
